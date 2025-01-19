@@ -1,0 +1,162 @@
+.tip{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 2px solid hsl(223, 64%, 98%);
+}
+
+.body{
+    font-family: "Kumbh Sans", serif;
+}
+
+.sneakers{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.sneakers img{
+    height: 30px;
+}
+
+.tiptxt{
+    border: 0;
+    background-color: white;
+    color: hsl(220, 14%, 75%);
+    font-family: "Kumbh Sans", serif;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.pfp{
+    height: 70px;
+}
+
+
+
+.right{
+    font-family: "Kumbh Sans", serif;
+}
+
+.main{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.limited{
+    font-size: 60px;
+}
+
+.right p{
+    font-size: 18px;
+    line-height: 30px;
+    color: hsl(219, 9%, 45%);
+}
+
+.right h4{
+    color: hsl(219, 9%, 45%);
+    margin: 0;
+}
+
+.right h1{
+    margin-top: 0;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mainimg{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.smallimgs{
+    display: flex;
+    gap: 30px;
+}
+
+.smallimgs img{
+    border-radius: 10px;
+    width: 100px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fifty{
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pricetag{
+    margin: 0;
+}
+
+.oldprice{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: hsl(219, 9%, 45%);
+    font-weight: bold;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    background-color: hsl(223, 64%, 98%);
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.amount button{
+    background-color: transparent;
+    border: 0;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.inps{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart{
+    background-color: hsl(26, 100%, 55%);
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    font-family: "Kumbh Sans", serif;
+    font-weight: bold;
+}
+
+.cart:hover{
+    background-color: hsl(25, 100%, 94%);
+}
