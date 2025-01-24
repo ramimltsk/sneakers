@@ -33,18 +33,54 @@ const img4 = document.querySelector(".img4")
 
 img1.addEventListener("click", () => {
     mainimg.src = img11.src
+    img1.style.border = "3px solid hsl(26, 100%, 55%)";
+    img2.style.border = "0px"
+    img3.style.border = "0px"
+    img4.style.border = "0px"   
+    
+    img1.style.opacity = ".50"
+    img4.style.opacity = "1"
+    img2.style.opacity = "1"
+    img3.style.opacity = "1"
 })
 
 img2.addEventListener("click", () => {
     mainimg.src = img22.src
+    img2.style.border = "3px solid hsl(26, 100%, 55%)";
+    img1.style.border = "0px"
+    img3.style.border = "0px"
+    img4.style.border = "0px" 
+    
+    img2.style.opacity = ".50"
+    img1.style.opacity = "1"
+    img4.style.opacity = "1"
+    img3.style.opacity = "1"
 })
 
 img3.addEventListener("click", () => {
     mainimg.src = img33.src
+    img3.style.border = "3px solid hsl(26, 100%, 55%)";
+    img2.style.border = "0px"
+    img1.style.border = "0px"
+    img4.style.border = "0px"  
+    
+    img3.style.opacity = ".50"
+    img1.style.opacity = "1"
+    img2.style.opacity = "1"
+    img4.style.opacity = "1"
 })
 
 img4.addEventListener("click", () => {
     mainimg.src = img44.src
+    img4.style.border = "3px solid hsl(26, 100%, 55%)";
+    img2.style.border = "0px"
+    img3.style.border = "0px"
+    img1.style.border = "0px"    
+
+    img4.style.opacity = ".50"
+    img1.style.opacity = "1"
+    img2.style.opacity = "1"
+    img3.style.opacity = "1"
 })
 
 const img11 = document.querySelector(".img11")

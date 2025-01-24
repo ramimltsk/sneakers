@@ -84,12 +84,13 @@
 
 .smallimgs{
     display: flex;
-    gap: 30px;
+    gap: 28px;
 }
 
 .smallimgs img{
     border-radius: 10px;
     width: 100px;
+    height: 100px;
 }
 
 .price{
