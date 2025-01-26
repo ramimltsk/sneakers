@@ -161,3 +161,65 @@
 .cart:hover{
     background-color: hsl(25, 100%, 94%);
 }
+
+.cartpopup{
+    font-family: "Kumbh Sans", serif;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow:2px 10px 15px  rgba(128, 128, 128, 0.274) ;
+    padding: 20px;
+    position: absolute;
+    background-color: white;
+    right: 100px;
+    top: 100px;
+    display: none;
+}
+
+.carthead{
+    font-weight: bold;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+}
+
+.cartprod{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item{
+    display: none;
+}
+
+.empty{
+    padding: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.carttxt{
+    color: hsl(219, 9%, 45%);
+}
+
+.threek{
+    font-weight:bold ;
+    color: black;
+}
+
+.smallimg{
+    height: 55px;
+    border-radius: 5px;
+}
+
+.active{
+    display: block;
+}
+
+.checkout{
+    width: 300px;
+    background-color: hsl(26, 100%, 55%);
+    border: 0;
+    border-radius: 5px;
+    font-family: "Kumbh Sans", serif;
+    font-weight: bold;
+}

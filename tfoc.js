@@ -83,6 +83,33 @@ img4.addEventListener("click", () => {
     img3.style.opacity = "1"
 })
 
+const iconcart = document.querySelector(".iconcart")
+
+const cartpopup = document.querySelector(".cartpopup")
+
+iconcart.addEventListener("click", () => {
+    cartpopup.classList.toggle('active'); 
+})
+
+const cart = document.querySelector(".cart")
+
+const item = document.querySelector(".item")
+
+const empty = document.querySelector(".empty")
+
+const removeicon = document.querySelector(".removeicon")
+
+cart.addEventListener("click", () => {
+    cartpopup.style.display = "block"
+    empty.style.display = "none"
+    item.style.display = "block"
+})
+
+removeicon.addEventListener("click", () => {
+    item.style.display = "none"
+    empty.style.display = "block"
+})
+
 const img11 = document.querySelector(".img11")
 const img22 = document.querySelector(".img22")
 const img33 = document.querySelector(".img33")
@@ -92,3 +119,4 @@ img11.style.display = "none"
 img22.style.display = "none"
 img33.style.display = "none"
 img44.style.display = "none"
+
